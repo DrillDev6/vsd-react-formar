@@ -3,7 +3,7 @@ import { Home } from '../../pages/Home'
 import { Profile } from '../../pages/Profile'
 import { Link, Route, Routes, BrowserRouter} from 'react-router-dom'
 
-function AppRoutes(){
+function AppRoutes() {
     return (
         <BrowserRouter>
       <Routes>
@@ -14,4 +14,4 @@ function AppRoutes(){
     )
 }
 
-export { AppRoutes }
+export default AppRoutes

@@ -5,11 +5,14 @@ import { Layout } from '../layout'
 function Home() {
     const [hovered, setHovered] = useState(false)
     return (
-        <Layout title={'Dashboard'}>
+        <Layout title={''}>
                 <div style={styles.containerWrapper}>
                     <div style={styles.container}>
-                        <h1>Hello there, I'm Adriel Hipolito</h1>
-                        <h2 style={styles.subTitle}>Developer FullStack on the rise</h2>
+                        
+                        <h2 style={styles.subTitle}>
+                          Hello there, I'm Adriel Hipolito
+                          Developer FullStack on the rise</h2>  
+
                         <p style={styles.text}> Welcome to my portfolio!
                             Here you will find all my recent projects
                             and my professional journey!
@@ -60,7 +63,7 @@ const styles = {
     gap: '25px',
     alignItems: "flex-start",
     borderRadius: '25px',
-    backgroundColor: '#000000cc'
+    backgroundColor: 'rgba(255, 255, 255, 0.4)'
   },
   title: {
     color: '#fff',
