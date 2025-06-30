@@ -17,26 +17,35 @@ function Home() {
                             Here you will find all my recent projects
                             and my professional journey!
                         </p>
-                        <button style={{...styles.button,
-                            transform: hovered ?  
-                            'scale (1.03)' : 'scale(1)',
-                            boxShadow: hovered ? 
-                                '0 6px 16px rgba(255, 0, 255, 0.4)'
-                              : '0 4px 12px rgba(0, 0, 0, 0.25)'
-
-                        }
-                        } 
-                        onMouseEnter={() => setHovered (true)}
-                        onMouseLeave={() => setHovered(false)}
+                        <button
+                            style={{
+                              ...styles.button,
+                              transform: hovered
+                                ? 'scale(1.03)'
+                                : 'scale(1)',
+                              boxShadow: hovered
+                                ? '0 6px 16px rgba(255, 0, 255, 0.4)'
+                                : '0 4px 12px rgba(133, 70, 70, 0.25)'
+                            }}
+                            onClick={() => window.location.href = 'http://localhost:5173/profile'}
+                            onMouseEnter={() => setHovered(true)}
+                            onMouseLeave={() => setHovered(false)}
                         >
                 Explorar Portfólio
               </button>
               <div style={styles.socialContainer}>
-                <a href="" style={styles.socialLink}>
+                <a href="https://github.com/DrillDev6" style={styles.socialLink}>
                   <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github"  style={styles.socialIcon}/>
                 </a>
-                <a href="" style={styles.socialLink}>
+
+                <a href="https://www.linkedin.com/in/adrielhipolito/" style={styles.socialLink}>
                   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin" style={styles.socialIcon}/>
+                            </a>
+
+                  <a href='https://www.instagram.com/fx_adrielhipolit0/?next=%2F' style={styles.socialLink}>
+                    <img src="https://cdn-icons-png.flaticon.com/128/87/87390.png"
+                    alt="instagram" style={styles.socialIcon}/>
+                  
                 </a>
               </div>
             </div>
@@ -49,7 +58,7 @@ const styles = {
   containerWrapper: {
     padding: '4px',
     borderRadius: '30px',
-    background:'linear-gradient(270deg,#7f00ff, #e100ff, #7f00ff)',
+    background:'linear-gradient(270deg,#7f00ff,rgb(117, 18, 160),rgb(127, 40, 164))',
     backgroundSize: '600% 600%',
     animation:'gradientAnimation 10s ease infinite',
     display: 'inline-block'
@@ -63,42 +72,48 @@ const styles = {
     gap: '25px',
     alignItems: "flex-start",
     borderRadius: '25px',
-    backgroundColor: 'rgba(255, 255, 255, 0.4)'
+    backgroundColor: 'rgba(55, 154, 126, 0.12)'
   },
   title: {
     color: '#fff',
     fontSize: '2.5rem',
     fontWeight: 700,
     margin:0,
-    background: 'linear-gradient(135deg, #fff, #e100ff)',
+    background: 'linear-gradient(135deg, #fff,rgb(244, 244, 244), rgb(66, 88, 88))',
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor:'transparent',
     textAlign: 'left'
   },
   subTitle: {
-    color: 'rgba(255, 255,  255, 0.8)',
-    fontSize:'1.3rem',
+    background: 'linear-gradient(to right,rgb(255, 255, 255),rgb(74, 67, 67))',
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent',
+    fontSize:'1.6rem',
     fontWeight:400,
     margin:0,
     textAlign: 'left' as const
   },
   text: {
     color: 'rgba(255, 255,  255, 0.8)',
-    fontSize: '1.1rem',
+    fontSize: '1.4rem',
     margin: '0',
     textAlign: 'left' as const
   },
   button: {
-    padding: '14px 24px',
-    background: 'linear-gradient(135deg,  #7f00ff, #e100ff)',
-    color:'#fff',
+     padding: '14px 24px',
+    background: 'linear-gradient(135deg, rgb(112, 35, 188),rgb(133, 72, 142))',
+    color: '#ffffff',
     fontWeight: 600,
-    fontSize: "1.1rem",
+    fontSize: '1.1rem',
     border: 'none',
-    borderRadius:'10px',
-     marginTop: '10px',
-     transition: 'all 0.2s ease-in-out',
-     boxShadow: '0 4px 12px rgba(0, 0, 0, 0.25)',
+    borderRadius: '10px',
+    marginTop: '10px',
+    transition: 'all 0.2s ease-in-out',
+    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.25)',
+    cursor: 'pointer',
+    backgroundImage: 'none !important',
+    WebkitTextFillColor: '#ffffff !important',
+    display: 'inline-block',
   },
   socialContainer: {
     display: 'flex',

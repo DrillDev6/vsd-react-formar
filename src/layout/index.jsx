@@ -21,7 +21,7 @@ const Layout = ({ children, title }) => {
 const styles = {
     wrapper: {
         flex: 1,
-        background: 'linear-gradient(135deg, #6a1b9a, #000000, #9e9e9e)',
+        background: 'linear-gradient(135deg,rgb(255, 0, 119),rgba(91, 11, 107, 0.81),rgb(133, 62, 174))',
         animation: 'gradientBG 15s ease infinite',
         backgroundSize: '400% 400%',
         minHeight: '100vh',
