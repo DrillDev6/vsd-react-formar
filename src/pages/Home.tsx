@@ -27,7 +27,7 @@ function Home() {
                                 ? '0 6px 16px rgba(255, 0, 255, 0.4)'
                                 : '0 4px 12px rgba(133, 70, 70, 0.25)'
                             }}
-                            onClick={() => window.location.href = 'http://localhost:5173/profile'}
+                            onClick={() => window.location.href = 'http://vsd-react-formar.vercel.app//profile'}
                             onMouseEnter={() => setHovered(true)}
                             onMouseLeave={() => setHovered(false)}
                         >
