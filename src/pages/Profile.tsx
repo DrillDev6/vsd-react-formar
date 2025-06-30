@@ -13,7 +13,7 @@ function Profile() {
           <div style={styles.avatarSection}>
             <img 
               style={styles.avatar as React.CSSProperties} 
-              src='./images/imagem.jpg' 
+              src='https://avatars.githubusercontent.com/u/200944264?s=400&u=1171e7d95c9441537eed837cb82ec8a4fa6cbe11&v=4' 
               alt="Profile" 
             />
           </div>
