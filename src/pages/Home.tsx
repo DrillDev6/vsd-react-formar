@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
 import { Layout } from '../layout'
+import { useNavigate } from 'react-router-dom'
+
+
 
 
 function Home() {
+  const navigate = useNavigate()
     const [hovered, setHovered] = useState(false)
     return (
         <Layout title={''}>
@@ -27,7 +31,7 @@ function Home() {
                                 ? '0 6px 16px rgba(255, 0, 255, 0.4)'
                                 : '0 4px 12px rgba(133, 70, 70, 0.25)'
                             }}
-                            onClick={() => window.location.href = 'http://vsd-react-formar.vercel.app//profile'}
+                            onClick={() => navigate( window.location.href = '/profile') }
                             onMouseEnter={() => setHovered(true)}
                             onMouseLeave={() => setHovered(false)}
                         >
