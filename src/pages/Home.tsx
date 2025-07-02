@@ -62,7 +62,7 @@ const styles = {
   containerWrapper: {
     padding: '4px',
     borderRadius: '30px',
-    background:'linear-gradient(270deg,#7f00ff,rgb(117, 18, 160),rgb(127, 40, 164))',
+    background: 'linear-gradient(270deg,rgb(153, 28, 198),rgb(112, 35, 188),rgb(133, 72, 142))',
     backgroundSize: '600% 600%',
     animation:'gradientAnimation 10s ease infinite',
     display: 'inline-block'
@@ -76,20 +76,20 @@ const styles = {
     gap: '25px',
     alignItems: "flex-start",
     borderRadius: '25px',
-    backgroundColor: 'rgba(55, 154, 126, 0.12)'
+    backgroundColor: 'rgba(64, 34, 34, 0.1)'
   },
   title: {
     color: '#fff',
     fontSize: '2.5rem',
     fontWeight: 700,
     margin:0,
-    background: 'linear-gradient(135deg, #fff,rgb(244, 244, 244), rgb(66, 88, 88))',
+    background: 'linear-gradient(135deg, #fff,rgb(244, 244, 244), rgb(65, 84, 84))',
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor:'transparent',
     textAlign: 'left'
   },
   subTitle: {
-    background: 'linear-gradient(to right,rgb(255, 255, 255),rgb(74, 67, 67))',
+    background: 'linear-gradient(to right,rgb(255, 255, 255),rgb(238, 238, 238))',
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor: 'transparent',
     fontSize:'1.6rem',

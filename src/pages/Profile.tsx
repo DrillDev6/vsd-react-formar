@@ -69,7 +69,7 @@ const styles = {
     gap: '25px',
     alignItems: 'flex-start',
     borderRadius: '25px',
-    backgroundColor: '#000000cc',
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
     fontFamily: "'Poppins', sans-serif"
   },
   avatarSection: {
