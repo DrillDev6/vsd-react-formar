@@ -55,7 +55,7 @@ const styles = {
   containerWrapper: {
     padding: '4px',
     borderRadius: '30px',
-    background: 'linear-gradient(270deg,rgb(153, 28, 198),rgb(112, 35, 188),rgb(133, 72, 142))',
+    background: 'linear-gradient(270deg,rgb(153, 28, 197),rgb(112, 35, 188),rgb(133, 72, 142))',
     backgroundSize: '600% 600%',
     animation: 'gradientAnimation 10s ease infinite',
     display: 'inline-block'
