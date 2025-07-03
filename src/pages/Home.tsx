@@ -84,7 +84,7 @@ const styles = {
     fontSize: '2.5rem',
     fontWeight: 700,
     margin:0,
-    background: 'linear-gradient(135deg, #fff,rgb(244, 244, 244), rgb(65, 84, 84))',
+    background: 'linear-gradient(135deg, #fff,rgb(244, 244, 244), rgb(119, 126, 126))',
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor:'transparent',
     textAlign: 'left'
