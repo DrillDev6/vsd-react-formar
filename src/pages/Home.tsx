@@ -12,7 +12,8 @@ function Home() {
         <Layout title={''}>
                 <div style={styles.containerWrapper}>
                     <div style={styles.container}>
-                        
+                        <h1 style={styles.title}>Adriel Hipolito</h1>
+                        <br/>
                         <h2 style={styles.subTitle}>
                           Hello there, I'm Adriel Hipolito
                           Developer FullStack on the rise</h2>  
