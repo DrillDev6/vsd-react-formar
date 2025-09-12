@@ -39,7 +39,7 @@ function Home() {
                 Explorar Portfólio
               </button>
               <div style={styles.socialContainer}>
-                <a href="https://github.com/DrillDev6" style={styles.socialLink}>
+                <a href="https://github.com/adrielhs" style={styles.socialLink}>
                   <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github"  style={styles.socialIcon}/>
                 </a>
 
@@ -134,5 +134,6 @@ const styles = {
     filter: 'brightness(0) invert(1)'
   }
 }
+
 
 export { Home }
