@@ -27,7 +27,7 @@ function Profile() {
           </div>
           
           <a
-            href='https://github.com/DrillDev6?tab=repositories'
+            href='https://github.com/adrielhs?tab=repositories'
             style={{
               ...styles.buttonLink,
               transform: hovered ? 'scale(1.03)' : 'scale(1)',
@@ -133,5 +133,6 @@ const styles = {
     WebkitTextFillColor: '#ffffff'
   }
 };
+
 
 export { Profile };
